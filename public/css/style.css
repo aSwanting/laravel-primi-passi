@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+nav {
+    background-color: rgb(75, 100, 155);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-menu a {
+    line-height: 50px;
+    padding: 0 50px;
+    display: block;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.home,
+.about {
+    padding: 50px;
+    text-align: center;
+}
