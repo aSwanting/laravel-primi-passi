@@ -21,7 +21,7 @@ a {
 }
 
 nav {
-    background-color: rgb(75, 100, 155);
+    background-color: rgb(74, 37, 75);
 }
 
 .nav-menu {
@@ -43,6 +43,25 @@ nav {
 
 .home,
 .about {
-    padding: 50px;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    background-color: rgb(48, 94, 86);
+}
+
+.about {
+    background-color: rgb(10, 45, 110);
+}
+
+.home > h1,
+.about > h1 {
+    margin: 30px;
+    font-size: 100px;
+    text-transform: uppercase;
     text-align: center;
+    color: white;
 }
